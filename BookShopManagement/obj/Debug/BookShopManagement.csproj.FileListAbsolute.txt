@@ -1,0 +1,85 @@
+c:\users\salaar husyn\documents\visual studio 2015\Projects\BookShopManagement\BookShopManagement\bin\Debug\BookShopManagement.exe.config
+c:\users\salaar husyn\documents\visual studio 2015\Projects\BookShopManagement\BookShopManagement\bin\Debug\BookShopManagement.exe
+c:\users\salaar husyn\documents\visual studio 2015\Projects\BookShopManagement\BookShopManagement\bin\Debug\BookShopManagement.pdb
+c:\users\salaar husyn\documents\visual studio 2015\Projects\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.csprojResolveAssemblyReference.cache
+c:\users\salaar husyn\documents\visual studio 2015\Projects\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Form1.resources
+c:\users\salaar husyn\documents\visual studio 2015\Projects\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Properties.Resources.resources
+c:\users\salaar husyn\documents\visual studio 2015\Projects\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.csproj.GenerateResource.Cache
+c:\users\salaar husyn\documents\visual studio 2015\Projects\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.exe
+c:\users\salaar husyn\documents\visual studio 2015\Projects\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.pdb
+E:\Roots Projects\BookShopManagement\BookShopManagement\bin\Debug\BookShopManagement.exe.config
+E:\Roots Projects\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.exe
+E:\Roots Projects\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.pdb
+E:\Roots Projects\BookShopManagement\BookShopManagement\bin\Debug\BookShopManagement.exe
+E:\Roots Projects\BookShopManagement\BookShopManagement\bin\Debug\BookShopManagement.pdb
+E:\Roots Projects\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.csprojResolveAssemblyReference.cache
+E:\Roots Projects\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Form1.resources
+E:\Roots Projects\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Forms.Form_Dashboard.resources
+E:\Roots Projects\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Properties.Resources.resources
+E:\Roots Projects\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.csproj.GenerateResource.Cache
+E:\YoutubeStuff\BookShopManagement\BookShopManagement\bin\Debug\BookShopManagement.exe.config
+E:\YoutubeStuff\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.exe
+E:\YoutubeStuff\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.pdb
+E:\YoutubeStuff\BookShopManagement\BookShopManagement\bin\Debug\BookShopManagement.exe
+E:\YoutubeStuff\BookShopManagement\BookShopManagement\bin\Debug\BookShopManagement.pdb
+E:\YoutubeStuff\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.csprojResolveAssemblyReference.cache
+E:\YoutubeStuff\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Form1.resources
+E:\YoutubeStuff\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Forms.Form_Dashboard.resources
+E:\YoutubeStuff\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Properties.Resources.resources
+E:\YoutubeStuff\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.csproj.GenerateResource.Cache
+E:\YoutubeStuff\BookShopManagement\BookShopManagement\bin\Debug\BunifuDataViz 1.0.1.dll
+E:\YoutubeStuff\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.UserControls.UC_Home.resources
+E:\YoutubeStuff\BookShopManagement\BookShopManagement\bin\Debug\Bunifu_UI_v1.52.dll
+F:\YouTube Stuff\BookShopManagement\BookShopManagement\bin\Debug\BookShopManagement.exe.config
+F:\YouTube Stuff\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.exe
+F:\YouTube Stuff\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.pdb
+F:\YouTube Stuff\BookShopManagement\BookShopManagement\bin\Debug\BookShopManagement.exe
+F:\YouTube Stuff\BookShopManagement\BookShopManagement\bin\Debug\BookShopManagement.pdb
+F:\YouTube Stuff\BookShopManagement\BookShopManagement\bin\Debug\BunifuDataViz 1.0.1.dll
+F:\YouTube Stuff\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.csprojResolveAssemblyReference.cache
+F:\YouTube Stuff\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Form1.resources
+F:\YouTube Stuff\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Forms.Form_Dashboard.resources
+F:\YouTube Stuff\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Properties.Resources.resources
+F:\YouTube Stuff\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.UserControls.UC_Home.resources
+F:\YouTube Stuff\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.UserControls.UC_Sales.resources
+F:\YouTube Stuff\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.csproj.GenerateResource.Cache
+F:\YouTube Stuff\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Forms.Form_FinishOrder.resources
+E:\YouTube\BookShopManagement\BookShopManagement\bin\Debug\BookShopManagement.exe.config
+E:\YouTube\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.exe
+E:\YouTube\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.pdb
+E:\YouTube\BookShopManagement\BookShopManagement\bin\Debug\BookShopManagement.exe
+E:\YouTube\BookShopManagement\BookShopManagement\bin\Debug\BookShopManagement.pdb
+E:\YouTube\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.csprojResolveAssemblyReference.cache
+E:\YouTube\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Form1.resources
+E:\YouTube\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Forms.Form_AddNewBook.resources
+E:\YouTube\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Forms.Form_Dashboard.resources
+E:\YouTube\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Forms.Form_FinishOrder.resources
+E:\YouTube\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Properties.Resources.resources
+E:\YouTube\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.UserControls.UC_Home.resources
+E:\YouTube\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.UserControls.UC_PurchaseDetails.resources
+E:\YouTube\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.UserControls.UC_Sales.resources
+E:\YouTube\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.csproj.GenerateResource.Cache
+E:\YouTube\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Forms.Form_AddCategory.resources
+E:\YouTube\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Forms.Form_AddStock.resources
+E:\YouTube\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Forms.Form_AddExpense.resources
+E:\YouTube\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.UserControls.UC_ManageExpense.resources
+E:\YouTube\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.UserControls.UC_ManageUser.resources
+E:\YouTube\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.UserControls.UC_ViewSales.resources
+F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.csprojAssemblyReference.cache
+F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Form1.resources
+F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Forms.Form_Dashboard.resources
+F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Properties.Resources.resources
+F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.UserControls.UC_ManageUser.resources
+F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.csproj.GenerateResource.cache
+F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.csproj.CoreCompileInputs.cache
+F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.exe
+F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.pdb
+F:\PBL3\BookShopManagement\BookShopManagement\bin\Debug\BookShopManagement.exe.config
+F:\PBL3\BookShopManagement\BookShopManagement\bin\Debug\BookShopManagement.exe
+F:\PBL3\BookShopManagement\BookShopManagement\bin\Debug\BookShopManagement.pdb
+F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.UserControls.UC_QuanliHoaDon.resources
+F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.UserControls.UC_LapHoaDon.resources
+F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.UserControls.UC_DoanhThu.resources
+F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.csproj.CopyComplete
+F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Forms.Form_EditHoaDon.resources
+F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Forms.Form_DetailHoaDon.resources
