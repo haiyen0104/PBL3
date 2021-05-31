@@ -152,6 +152,7 @@ namespace BookShopManagement.UserControls
                 };
                 BLL_BookShop.Instance.AddCTHD_BLL(ct);
             }
+            MessageBox.Show("Thành công!");
         }
 
         private void btnNewOder_Click(object sender, EventArgs e)
