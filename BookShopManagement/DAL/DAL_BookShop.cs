@@ -130,7 +130,26 @@ namespace BookShopManagement.DAL
                 MucGiamGia = float.Parse(i["MucGiamGia"].ToString())
             };
         }
-            public void AddHD_DAL(HoaDon hd)
+        public List<Kho> GetAllKho_DAL()
+        {
+            List<Kho> data = new List<Kho>();
+            string query = "select * from Kho";
+            foreach (DataRow i in DBHelper.Instance.GetRecord(query).Rows)
+            {
+                data.Add(GetKho(i));
+            }
+            return data;
+        }
+        public Kho GetKho(DataRow i)
+        {
+            return new Kho
+            {
+                MaSach = Convert.ToInt32(i["MaSach"].ToString()),
+                TongSL = Convert.ToInt32(i["TongSoLuong"].ToString()),
+                SLcon = Convert.ToInt32(i["SoLuongCon"].ToString())
+            };
+        }
+        public void AddHD_DAL(HoaDon hd)
         {
             string query = "insert into HoaDon values ('" + hd.TenKhachHang + "','" + hd.NgayLap + "','" + hd.TongTien + "','" + hd.ID_Staff + "')";
             DBHelper.Instance.ExcuteDB(query);
@@ -147,7 +166,12 @@ namespace BookShopManagement.DAL
         }
         public void EditCTHD(ChiTietHD dt)
         {
-            string query = "update ChiTietHoaDon set MaSach = '" + dt.MaSach + "', SoLuong = " + dt.SoLuong + "', MucGiamGia = " + dt.MucGiamGia + " 'where MaHoaDon = '" + dt.MaHoaDon + "'";
+            string query = "update ChiTietHoaDon set MaSach = '" + dt.MaSach + "', SoLuong = '" + dt.SoLuong + "', MucGiamGia = '" + dt.MucGiamGia + "' where MaHoaDon = '" + dt.MaHoaDon + "'";
+            DBHelper.Instance.ExcuteDB(query);
+        }
+        public void EditKho(Kho dt)
+        {
+            string query = "update Kho set SoLuongCon = '" + dt.SLcon + "' where MaSach = '" + dt.MaSach + "'";
             DBHelper.Instance.ExcuteDB(query);
         }
         public void DelHD_DAL(List<int> Mahd)
@@ -162,13 +186,13 @@ namespace BookShopManagement.DAL
         }
         public void DelCTHD_DAL(int Ma)
         {
-                string query1 = "delete from ChiTietHoaDon where MaHoaDon = '" + Ma + "'";
-                DBHelper.Instance.ExcuteDB(query1);
+                string query = "delete from ChiTietHoaDon where MaHoaDon = '" + Ma + "'";
+                DBHelper.Instance.ExcuteDB(query);
         }
-        //public void EditStaff(Staff dt)
-        //{
-        //    string query = "update Staff set Name_Staff = '" + dt.NameStaff + "', Gender = '" + dt.Birth + "', Address = '" + dt.Address + "', ID_User = '" + dt.IdUser + "' where ID_Staff = '" + dt.ID_Staff + "'";
-        //    DBHelper.Instance.ExcuteDB(query);
-        //}
+        public int getmaTT()
+        {
+            string query = "SELECT IDENT_CURRENT('HoaDon')";
+            return DBHelper.Instance.GetRecord1(query);
+        }
     }
 }

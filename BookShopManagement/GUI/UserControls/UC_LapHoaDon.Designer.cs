@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -95,6 +95,7 @@
             this.datGdTenSach.Name = "datGdTenSach";
             this.datGdTenSach.RowHeadersWidth = 62;
             this.datGdTenSach.RowTemplate.Height = 28;
+            this.datGdTenSach.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.datGdTenSach.Size = new System.Drawing.Size(446, 209);
             this.datGdTenSach.TabIndex = 6;
             // 
@@ -212,13 +213,14 @@
             // 
             this.datGdSachMua.AllowUserToAddRows = false;
             this.datGdSachMua.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle3.NullValue = "-1";
-            this.datGdSachMua.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.NullValue = "-1";
+            this.datGdSachMua.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.datGdSachMua.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.datGdSachMua.Location = new System.Drawing.Point(14, 36);
             this.datGdSachMua.Name = "datGdSachMua";
             this.datGdSachMua.RowHeadersWidth = 62;
             this.datGdSachMua.RowTemplate.Height = 28;
+            this.datGdSachMua.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.datGdSachMua.Size = new System.Drawing.Size(557, 208);
             this.datGdSachMua.TabIndex = 19;
             this.datGdSachMua.MouseDown += new System.Windows.Forms.MouseEventHandler(this.datGdSachMua_MouseDown);

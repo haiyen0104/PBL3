@@ -14,8 +14,6 @@ namespace BookShopManagement.Forms
 {
     public partial class Form_EditHoaDon : Form
     {
-        public delegate void MyDel(int maHD, string nameKH);
-        public MyDel d { get; set; }
         public int MaHD { get; set; }
         public Form_EditHoaDon(int mahd)
         {
@@ -35,6 +33,12 @@ namespace BookShopManagement.Forms
             txtTongTien.Text = (s.TongTien).ToString();
             txt_IDStaff.Text = s.ID_Staff.ToString();
             dataGridView_Sachmua.DataSource = BLL_BookShop.Instance.GetTTSach_ByMaHD(maHD);
+            dataGridView_Sachmua.Columns[0].HeaderText = "Book ID";
+            dataGridView_Sachmua.Columns[1].HeaderText = "Book title";
+            dataGridView_Sachmua.Columns[2].HeaderText = "Quantity";
+            dataGridView_Sachmua.Columns[3].HeaderText = "Purchase price(VNĐ)";
+            dataGridView_Sachmua.Columns[4].HeaderText = "Discount rate(%)";
+            dataGridView_Sachmua.Columns[5].HeaderText = "The price paid(VNĐ)";
             dataGridView_Sachmua.Columns["ThanhTien"].Visible = false;
             dataGridView_dsSach.DataSource = BLL_BookShop.Instance.GetAllSach_BLL();
             dataGridView_dsSach.Columns["DonGia"].Visible = false;
@@ -43,6 +47,8 @@ namespace BookShopManagement.Forms
             dataGridView_dsSach.Columns["TenLinhVuc"].Visible = false;
             dataGridView_dsSach.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
             dataGridView_dsSach.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            dataGridView_dsSach.Columns[0].HeaderText = "Book ID";
+            dataGridView_dsSach.Columns[1].HeaderText = "Book title";
         }
         private void SetList()
         {
@@ -76,6 +82,13 @@ namespace BookShopManagement.Forms
                     MucGiamGia = i.MucGiamGia
                 };
                 BLL_BookShop.Instance.AddCTHD_BLL(ct);
+                Kho k = new Kho()
+                {
+                    MaSach = i.MaSach,
+                    TongSL = Convert.ToInt32(BLL_BookShop.Instance.GetKho_ByMaSach(i.MaSach).TongSL),
+                    SLcon = Convert.ToInt32(BLL_BookShop.Instance.GetKho_ByMaSach(i.MaSach).SLcon - i.SoLuong)
+                };
+                BLL_BookShop.Instance.UpdateKho_BLL(k);
             }
             
             HoaDon s = new HoaDon
@@ -87,7 +100,7 @@ namespace BookShopManagement.Forms
                 ID_Staff = Convert.ToInt32(txt_IDStaff.Text)
             };
             BLL_BookShop.Instance.UpdateHD_BLL(s);
-            MessageBox.Show("Thành công!");
+            MessageBox.Show("Susscess!");
         }
 
         private void btnAdd_Click(object sender, EventArgs e)

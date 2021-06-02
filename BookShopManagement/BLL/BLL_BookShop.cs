@@ -33,20 +33,6 @@ namespace BookShopManagement.BLL
             DAL_BookShop dal = new DAL_BookShop();
             return dal.GetAllHoaDon_DAL();
         }
-        //public List<Staff> GetAllStaff_BLL()
-        //{
-        //    DAL_BookShop dal = new DAL_BookShop();
-        //    return dal.GetAllStaff_DAL();
-        //}
-        //public Staff GetStaff_ByIDStaff(int id)
-        //{
-        //    Staff d = new Staff();
-        //    foreach(Staff i in DAL_BookShop.Instance.GetAllStaff_DAL())
-        //    {
-        //        if (i.ID_Staff == id) d = i;
-        //    }
-        //    return d;
-        //}
         public HoaDon GetHoaDon_ByMaHD(int ma)
         {
             HoaDon s = new HoaDon();
@@ -159,12 +145,7 @@ namespace BookShopManagement.BLL
         }
         public int GetMaHDcuoi()
         {
-            int ma=-1;
-            foreach(HoaDon i in DAL_BookShop.Instance.GetAllHoaDon_DAL())
-            {
-                ma = i.MaHoaDon;
-            }
-            return ma;
+            return DAL_BookShop.Instance.getmaTT();
         }
         public List<int> GetAllMaHD_ByNgaylap(string s)
         {
@@ -218,6 +199,19 @@ namespace BookShopManagement.BLL
             }
             return l;
         }
+        public List<Kho> GetAllKho_BLL()
+        {
+            return DAL_BookShop.Instance.GetAllKho_DAL();
+        }
+        public Kho GetKho_ByMaSach(int ma)
+        {
+            Kho s = new Kho();
+            foreach(Kho i in DAL_BookShop.Instance.GetAllKho_DAL())
+            {
+                if (i.MaSach == ma) s=i;
+            }
+            return s;
+        }
         public void AddHD_BLL(HoaDon s)
         {
             DAL_BookShop.Instance.AddHD_DAL(s);
@@ -234,10 +228,10 @@ namespace BookShopManagement.BLL
         {
             DAL_BookShop.Instance.EditCTHD(s);
         }
-        //public void UpdateStaff_BLL(Staff s)
-        //{
-        //    DAL_BookShop.Instance.EditStaff(s);
-        //}
+        public void UpdateKho_BLL(Kho s)
+        {
+            DAL_BookShop.Instance.EditKho(s);
+        }
         public void DelHD_BLL(List<int> Ma)
         {
             DAL_BookShop.Instance.DelHD_DAL(Ma);

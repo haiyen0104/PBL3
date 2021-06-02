@@ -40,6 +40,17 @@ namespace BookShopManagement.DAL
             cnn.Close();
             return dt;
         }
+        public int GetRecord1(string s)
+        {
+            SqlCommand cmd = new SqlCommand(s, cnn);
+            cnn.Open();
+            SqlDataReader dr = cmd.ExecuteReader();
+            dr.Read();
+            int i = Convert.ToInt16(dr[0].ToString());
+            cnn.Close();
+            return i;
+
+        }
         public void ExcuteDB(string sql)
         {
             SqlCommand cmd = new SqlCommand(sql, cnn);

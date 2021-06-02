@@ -22,8 +22,8 @@ namespace BookShopManagement.Forms
             timerTime.Start();
             PanelWidth = panelLeft.Width;
             isCollapsed = false;
-            UC_ManageUser uch = new UC_ManageUser();
-            AddControlsToPanel(uch);
+            //UC_ManageUser uch = new UC_ManageUser();
+            //AddControlsToPanel(uch);
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -93,8 +93,8 @@ namespace BookShopManagement.Forms
         private void btnUsers_Click(object sender, EventArgs e)
         {
             moveSidePanel(btnUsers);
-            UC_ManageUser um = new UC_ManageUser();
-            AddControlsToPanel(um);
+            //UC_ManageUser um = new UC_ManageUser();
+            //AddControlsToPanel(um);
         }
 
         private void btnViewSales_Click(object sender, EventArgs e)

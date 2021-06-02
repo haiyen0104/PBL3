@@ -59,6 +59,7 @@
     <Compile Include="DTO\ChiTietHD.cs" />
     <Compile Include="DTO\HoaDonView.cs" />
     <Compile Include="DTO\HoaDon.cs" />
+    <Compile Include="DTO\Kho.cs" />
     <Compile Include="DTO\Sach.cs" />
     <Compile Include="DTO\SachKhuyenMai.cs" />
     <Compile Include="DTO\TTSach.cs" />
@@ -97,12 +98,6 @@
     <Compile Include="GUI\UserControls\UC_QuanliHoaDon.Designer.cs">
       <DependentUpon>UC_QuanliHoaDon.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\UserControls\UC_ManageUser.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="GUI\UserControls\UC_ManageUser.Designer.cs">
-      <DependentUpon>UC_ManageUser.cs</DependentUpon>
-    </Compile>
     <Compile Include="GUI\UserControls\UC_LapHoaDon.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -138,9 +133,6 @@
     </Compile>
     <EmbeddedResource Include="GUI\UserControls\UC_QuanliHoaDon.resx">
       <DependentUpon>UC_QuanliHoaDon.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\UserControls\UC_ManageUser.resx">
-      <DependentUpon>UC_ManageUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\UserControls\UC_LapHoaDon.resx">
       <DependentUpon>UC_LapHoaDon.cs</DependentUpon>

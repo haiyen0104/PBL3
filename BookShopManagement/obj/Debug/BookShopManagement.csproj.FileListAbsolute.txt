@@ -69,7 +69,6 @@ F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.cspro
 F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Form1.resources
 F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Forms.Form_Dashboard.resources
 F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Properties.Resources.resources
-F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.UserControls.UC_ManageUser.resources
 F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.csproj.GenerateResource.cache
 F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.csproj.CoreCompileInputs.cache
 F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.exe

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using BookShopManagement.Forms;
 using BookShopManagement.BLL;
+using BookShopManagement.DTO;
 
 namespace BookShopManagement.UserControls
 {
@@ -22,6 +23,10 @@ namespace BookShopManagement.UserControls
         public void show(int mahd, string nameKH)
         {
             dataGridView1.DataSource = BLL_BookShop.Instance.ListAllHDView_BLL(mahd,nameKH);
+            dataGridView1.Columns[0].HeaderText = "Oder ID";
+            dataGridView1.Columns[1].HeaderText = "Client Name";
+            dataGridView1.Columns[2].HeaderText = "Date";
+            dataGridView1.Columns[3].HeaderText = "Total Amount(VNĐ)";
         }
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -38,34 +43,10 @@ namespace BookShopManagement.UserControls
                     using (Form_EditHoaDon ae = new Form_EditHoaDon(Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["MaHoaDon"].Value)))
                     {
                         ae.ShowDialog();
-                        ae.d += show;
                     }
                 }
                 else MessageBox.Show("Vui lòng chọn 1 sinh viên ");
             }
-            //if (dataGridView1.SelectedRows.Count != 1)
-            //{
-            //    MessageBox.Show("Choose only 1 row!");
-            //    return;
-            //}
-            //else
-            //{
-            //    int mahd;
-            //    DataGridViewSelectedRowCollection r = dataGridView1.SelectedRows;
-            //    foreach (DataGridViewRow row in r)
-            //    {
-            //        mahd = Convert.ToInt32(row.Cells["MaHD"].Value);
-            //    }
-            //    //Form_EditHoaDon f = new Form_EditHoaDon(mahd)
-            //    //{
-            //    //    MyDel = new Form_EditHoaDon.MyDel(show)
-            //    //};
-            //    using (Form_EditHoaDon ae = new Form_EditHoaDon(mahd))
-            //    {
-            //        MyDel = new Form_EditHoaDon.MyDel(show)
-            //        ae.ShowDialog();
-            //    }
-            //}
         }
 
         private void btnDetailHoaDon_Click(object sender, EventArgs e)
@@ -75,8 +56,7 @@ namespace BookShopManagement.UserControls
             {
                 if (dataGridView1.SelectedRows.Count == 1)
                 {
-                    //Form_DetailHoaDon f = new Form_DetailHoaDon(Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["MaHoaDon"].Value));
-                    //f.Show();
+
                     using (Form_DetailHoaDon ae = new Form_DetailHoaDon(Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["MaHoaDon"].Value)))
                     {
 
@@ -100,8 +80,17 @@ namespace BookShopManagement.UserControls
             foreach (DataGridViewRow i in rows)
             {
                 s.Add(Convert.ToInt32(i.Cells["MaHoaDon"].Value));
+                foreach(TTSach a in BLL_BookShop.Instance.GetTTSach_ByMaHD(Convert.ToInt32(i.Cells["MaHoaDon"].Value)))
+                {
+                    Kho k = new Kho()
+                    {
+                        MaSach = a.MaSach,
+                        TongSL = Convert.ToInt32(BLL_BookShop.Instance.GetKho_ByMaSach(a.MaSach).TongSL),
+                        SLcon = Convert.ToInt32(BLL_BookShop.Instance.GetKho_ByMaSach(a.MaSach).SLcon + a.SoLuong)
+                    };
+                    BLL_BookShop.Instance.UpdateKho_BLL(k);
+                }
             }
-
             BLL_BookShop.Instance.DelHD_BLL(s);
 
             show(0,null);
