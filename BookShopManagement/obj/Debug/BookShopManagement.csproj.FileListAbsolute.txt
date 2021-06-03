@@ -66,7 +66,6 @@ E:\YouTube\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Us
 E:\YouTube\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.UserControls.UC_ManageUser.resources
 E:\YouTube\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.UserControls.UC_ViewSales.resources
 F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.csprojAssemblyReference.cache
-F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Form1.resources
 F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Forms.Form_Dashboard.resources
 F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.Properties.Resources.resources
 F:\PBL3\BookShopManagement\BookShopManagement\obj\Debug\BookShopManagement.csproj.GenerateResource.cache

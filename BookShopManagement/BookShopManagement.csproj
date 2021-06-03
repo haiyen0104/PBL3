@@ -66,12 +66,6 @@
     <Compile Include="GUI\CustomControls\DragControl.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="GUI\Forms\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\Forms\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="GUI\Forms\Form_DetailHoaDon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,9 +104,6 @@
     <Compile Include="GUI\UserControls\UC_DoanhThu.Designer.cs">
       <DependentUpon>UC_DoanhThu.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="GUI\Forms\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Forms\Form_DetailHoaDon.resx">
       <DependentUpon>Form_DetailHoaDon.cs</DependentUpon>
     </EmbeddedResource>

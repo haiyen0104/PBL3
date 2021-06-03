@@ -61,6 +61,13 @@ namespace BookShopManagement.Forms
                 s.SoLuong = Convert.ToInt32(dataGridView_Sachmua.Rows[i].Cells["SoLuong"].Value);
                 s.MucGiamGia = float.Parse(dataGridView_Sachmua.Rows[i].Cells["MucGiamGia"].Value.ToString());
                 s.ThanhTien = Convert.ToDecimal(dataGridView_Sachmua.Rows[i].Cells["ThanhTien"].Value);
+                Kho k = new Kho()
+                {
+                    MaSach = Convert.ToInt32(dataGridView_Sachmua.Rows[i].Cells["MaSach"].Value),
+                    TongSL = Convert.ToInt32(BLL_BookShop.Instance.GetKho_ByMaSach(Convert.ToInt32(dataGridView_Sachmua.Rows[i].Cells["MaSach"].Value)).TongSL),
+                    SLcon = Convert.ToInt32(BLL_BookShop.Instance.GetKho_ByMaSach(Convert.ToInt32(dataGridView_Sachmua.Rows[i].Cells["MaSach"].Value)).SLcon + Convert.ToInt32(dataGridView_Sachmua.Rows[i].Cells["SoLuong"].Value))
+                };
+                BLL_BookShop.Instance.UpdateKho_BLL(k);
                 l.Add(s);
             }
         }
